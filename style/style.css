@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    background-color: bisque;
+}
+
+.menu-container {
+    background-color: #141414;
+    height: 35px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.menu-container li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.menu-container a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.Section-Ferrri h2 {
+    background-color: red;
+}
+
+.Section-McLaren h2 {
+    background-color: #ff9b05;
+}
+
+.Section-RedBull h2 {
+    background-color: #141414;
+    color: red;
+}
+
+.ferrari, .MClaren, .RedBull {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Imagens */
+header img {
+    width: 350px;
+    padding-top: 1%;
+}
+
+.box-ferrari img, .box-McLaren img, .box-RedBull img {
+    width: 350px;
+    height: 220px;
+    border: 4px inset rgb(128, 115, 115);
+}
